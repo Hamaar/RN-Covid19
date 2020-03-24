@@ -18,6 +18,8 @@ class OtherCountry extends Component {
       dataAllCountry: [],
       text: '',
     };
+
+    this.arrayholder = [];
   }
 
   componentDidMount() {
@@ -25,6 +27,8 @@ class OtherCountry extends Component {
       this.setState({
         dataAllCountry: res,
       });
+
+      this.arrayholder = res;
     });
   }
 
@@ -40,7 +44,7 @@ class OtherCountry extends Component {
   };
 
   SearchFilterFunction = text => {
-    const newData = this.state.dataAllCountry.filter(function(item) {
+    const newData = this.arrayholder.filter(function(item) {
       const itemData = item.countryRegion
         ? item.countryRegion.toUpperCase()
         : ''.toUpperCase();

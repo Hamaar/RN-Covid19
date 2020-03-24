@@ -49,7 +49,7 @@ class DailyUpdateReport extends Component {
                 </Text>
               </View>
             )}
-            keyExtractor={item => item.objectid.toString()}
+            keyExtractor={item => item.reportDate}
           />
         </View>
       </View>

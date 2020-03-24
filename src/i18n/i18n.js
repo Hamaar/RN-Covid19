@@ -1,5 +1,7 @@
 const i18n = {
   HOME: 'Home',
+  NEWS: 'News',
+  PROVINCE: 'Province',
   OTHER: 'Other',
   CONFIRMED: 'Confirmed',
   RECOVERED: 'Recovered',
@@ -20,6 +22,10 @@ const i18n = {
   OTHER_COUNTRY_REPORT: {
     TITLE_OTHER_COUNTRY_REPORT: 'All Country Report',
     PLACEHOLDER_SEARCH_COUNTRY: 'Search Country Here',
+  },
+  PROVINSI: {
+    TITLE_PROVINSI_REPORT: 'All Indonesia Province Report',
+    PLACEHOLDER_SEARCH_PROVINSI: 'Search Province Here',
   },
 };
 

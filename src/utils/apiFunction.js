@@ -1,5 +1,11 @@
 import axios from 'axios';
-import {URL_API, BY_COUNTRY, DAILY_REPORT, OTHER_COUNTRY_REPORT} from './const';
+import {
+  URL_API,
+  BY_COUNTRY,
+  DAILY_REPORT,
+  OTHER_COUNTRY_REPORT,
+  URL_API_V2,
+} from './const';
 
 const getIndonesiaReport = () => {
   return axios
@@ -50,9 +56,23 @@ const getAllCountryReport = () => {
     });
 };
 
+const getAllApiReport = () => {
+  return axios
+    .get(URL_API_V2)
+    .then(response => {
+      console.log('Respon GET All Api Report : ', response.data);
+
+      return response.data;
+    })
+    .catch(err => {
+      console.log(err.response);
+    });
+};
+
 export {
   getIndonesiaReport,
   getGlobalReport,
   getDailyReport,
   getAllCountryReport,
+  getAllApiReport,
 };
