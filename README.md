@@ -2,7 +2,7 @@
 This repository contains simple the source for COVID-19 iOS and Android App with React-Native. The data of this statistics accessed from the [mathdroid API](https://github.com/mathdroid/covid-19-api), which serving data from John Hopkins University CSSE.
 
 
-<span><img src="https://i.imgur.com/i5Jnv9H.png" width="1890" />
+<span><img src="https://i.imgur.com/0wuIWMv.png" width="1890" />
 </span>
 
 
