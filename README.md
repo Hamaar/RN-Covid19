@@ -11,9 +11,12 @@ This repository contains simple the source for COVID-19 iOS and Android App with
 3. [React Native Svg Chart](https://github.com/JesperLekland/react-native-svg-charts)
 4. [Moment](https://github.com/moment/moment)
 5. [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
+5. [React Native Html View](https://github.com/jsdf/react-native-htmlview)
+
 
 ### Data Source
 1. [COVID-19 API (made by mathdroid)](https://github.com/mathdroid/covid-19-api)
+
 
 ### LICENSE
 MIT
