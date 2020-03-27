@@ -27,6 +27,9 @@ const i18n = {
     TITLE_PROVINSI_REPORT: 'All Indonesia Province Report',
     PLACEHOLDER_SEARCH_PROVINSI: 'Search Province Here',
   },
+  NEWS_REPORT: {
+    NEWS_TITTLE_REPORT: 'News Feed',
+  },
 };
 
 export default i18n;

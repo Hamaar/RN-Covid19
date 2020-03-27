@@ -7,6 +7,7 @@ import HomeView from '../components/Home/HomeView';
 import OtherCountry from '../components/OtherCountry/OtherCountry';
 import i18n from '../i18n/i18n';
 import Province from '../components/Province/Province';
+import News from '../components/News/News';
 
 const Tab = createBottomTabNavigator();
 
@@ -35,6 +36,20 @@ function BottomTabNavigator() {
           tabBarLabel: 'Home',
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons name="home" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name={i18n.NEWS}
+        component={News}
+        options={{
+          tabBarLabel: 'News',
+          tabBarIcon: ({color, size}) => (
+            <MaterialCommunityIcons
+              name="newspaper"
+              color={color}
+              size={size}
+            />
           ),
         }}
       />
